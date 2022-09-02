@@ -234,7 +234,7 @@ section {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   section {
     flex-direction: column;
   }
@@ -287,6 +287,9 @@ section {
   .attribution {
     font-size: 8px;
     text-align: center;
+  }
+  .text-box {
+    margin-right: 25px;
   }
 }
 
